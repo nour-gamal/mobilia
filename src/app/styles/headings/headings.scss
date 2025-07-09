@@ -1,0 +1,26 @@
+@use "@styles/headings/mixins" as mixins;
+@use "@styles/headings/variables" as variables;
+
+
+.heading-12 {
+    @include mixins.heading(variables.$font_heading_12, variables.$line-height-heading-12);
+}
+
+.heading-11{
+    @include mixins.heading(variables.$font_heading_11, variables.$line-height-heading-11);
+}
+.heading-10 {
+    @include mixins.heading(variables.$font_heading_10, variables.$line-height-heading-10);
+}  
+.heading-9 {
+    @include mixins.heading(variables.$font_heading_9, variables.$line-height-heading-9);
+}
+.heading-8 {
+    @include mixins.heading(variables.$font_heading_8, variables.$line-height-heading-8);
+}
+.heading-7 {
+    @include mixins.heading(variables.$font_heading_7, variables.$line-height-heading-7);
+}
+.heading-6 {
+    @include mixins.heading(variables.$font_heading_6, variables.$line-height-heading-6);
+}

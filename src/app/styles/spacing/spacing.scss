@@ -1,0 +1,23 @@
+@use "@styles/spacing/variables" as variables;
+@use "@styles/spacing/mixins" as mixins;
+
+@each $name, $value in variables.$spacing-values {
+  .margin-left-#{$name} {
+    @include mixins.margin-left($value);
+  }
+  .margin-right-#{$name} {
+    @include mixins.margin-right($value);
+  }
+  .margin-top-#{$name} {
+    @include mixins.margin-top($value); 
+  } 
+  .margin-bottom-#{$name} {
+    @include mixins.margin-bottom($value);
+  }
+  .margin-x-#{$name} {
+    @include mixins.margin-x($value);
+  }
+  .margin-y-#{$name} {
+    @include mixins.margin-y($value);
+  }
+}

@@ -1,0 +1,41 @@
+@use "@styles/typography/mixins" as mixins;
+@use "@styles/typography/variables" as variables;
+
+
+.display-12 {
+    @include mixins.typography(variables.$font_display_12, variables.$line-height-display-12);
+}
+
+.display-11{
+    @include mixins.typography(variables.$font_display_11, variables.$line-height-display-11);
+}
+.display-10 {
+    @include mixins.typography(variables.$font_display_10, variables.$line-height-display-10);
+}  
+.display-9 {
+    @include mixins.typography(variables.$font_display_9, variables.$line-height-display-9);
+}
+.display-8 {
+    @include mixins.typography(variables.$font_display_8, variables.$line-height-display-8);
+}
+.display-7 {
+    @include mixins.typography(variables.$font_display_7, variables.$line-height-display-7);
+}
+.display-6 {
+    @include mixins.typography(variables.$font_display_6, variables.$line-height-display-6);
+}
+.display-5 {
+    @include mixins.typography(variables.$font_display_5, variables.$line-height-display-5);
+}
+.display-4 {
+    @include mixins.typography(variables.$font_display_4, variables.$line-height-display-4);
+}
+.display-3 {
+    @include mixins.typography(variables.$font_display_3, variables.$line-height-display-3);
+}
+.display-2 {
+    @include mixins.typography(variables.$font_display_2, variables.$line-height-display-2);
+}
+.display-1 {
+    @include mixins.typography(variables.$font_display_1, variables.$line-height-display-1);
+}

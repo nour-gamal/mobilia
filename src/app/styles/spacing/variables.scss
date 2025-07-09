@@ -1,0 +1,17 @@
+// Spacing (based on 8px grid)
+$spacing-unit: 8px;
+$spacing-xs: $spacing-unit; // 8px
+$spacing-sm: $spacing-unit * 2; // 16px
+$spacing-md: $spacing-unit * 3; // 24px
+$spacing-lg: $spacing-unit * 4; // 32px
+$spacing-xl: $spacing-unit * 6; // 48px
+$spacing-xxl: $spacing-unit * 8; // 64px
+
+$spacing-values: (
+  xs: $spacing-xs,
+  sm: $spacing-sm,
+  md: $spacing-md,
+  lg: $spacing-lg,
+  xl: $spacing-xl,
+  xxl: $spacing-xxl
+);
