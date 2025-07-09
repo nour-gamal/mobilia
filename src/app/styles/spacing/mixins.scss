@@ -1,28 +1,54 @@
 @mixin margin-top($margin) {
-  margin-top: $margin;
+	margin-top: $margin;
 }
 @mixin margin-right($margin) {
-  margin-right: $margin;
+	margin-right: $margin;
 }
 @mixin margin-bottom($margin) {
-  margin-bottom: $margin;
+	margin-bottom: $margin;
 }
 @mixin margin-left($margin) {
-  margin-left: $margin;
+	margin-left: $margin;
 }
 
 @mixin margin-x($margin) {
-  margin-left: $margin;
-  margin-right: $margin;
+	margin-left: $margin;
+	margin-right: $margin;
 }
 @mixin margin-y($margin) {
-  margin-top: $margin;
-  margin-bottom: $margin;
+	margin-top: $margin;
+	margin-bottom: $margin;
+}
+@mixin margin($margin) {
+	margin-top: $margin;
+	margin-bottom: $margin;
+	margin-left: $margin;
+	margin-right: $margin;
+}
+@mixin padding-top($padding) {
+	padding-top: $padding;
+}
+@mixin padding-right($padding) {
+	padding-right: $padding;
+}
+@mixin padding-bottom($padding) {
+	padding-bottom: $padding;
+}
+@mixin padding-left($padding) {
+	padding-left: $padding;
+}
+@mixin padding-x($padding) {
+	padding-left: $padding;
+	padding-right: $padding;
+}
+@mixin padding-y($padding) {
+	padding-top: $padding;
+	padding-bottom: $padding;
 }
 
-@mixin padding($paddingTop, $paddingRight, $paddingBottom, $paddingLeft) {
-  padding-top: $paddingTop;
-  padding-right: $paddingRight;
-  padding-bottom: $paddingBottom;
-  padding-left: $paddingLeft;
+@mixin padding($padding) {
+	padding-top: $padding;
+	padding-bottom: $padding;
+	padding-left: $padding;
+	padding-right: $padding;
 }

@@ -2,22 +2,46 @@
 @use "@styles/spacing/mixins" as mixins;
 
 @each $name, $value in variables.$spacing-values {
-  .margin-left-#{$name} {
-    @include mixins.margin-left($value);
-  }
-  .margin-right-#{$name} {
-    @include mixins.margin-right($value);
-  }
-  .margin-top-#{$name} {
-    @include mixins.margin-top($value); 
-  } 
-  .margin-bottom-#{$name} {
-    @include mixins.margin-bottom($value);
-  }
-  .margin-x-#{$name} {
-    @include mixins.margin-x($value);
-  }
-  .margin-y-#{$name} {
-    @include mixins.margin-y($value);
-  }
+	.margin-left-#{$name} {
+		@include mixins.margin-left($value);
+	}
+	.margin-right-#{$name} {
+		@include mixins.margin-right($value);
+	}
+	.margin-top-#{$name} {
+		@include mixins.margin-top($value);
+	}
+	.margin-bottom-#{$name} {
+		@include mixins.margin-bottom($value);
+	}
+	.margin-#{$name} {
+		@include mixins.margin($value);
+	}
+	.margin-x-#{$name} {
+		@include mixins.margin-x($value);
+	}
+	.margin-y-#{$name} {
+		@include mixins.margin-y($value);
+	}
+	.padding-left-#{$name} {
+		@include mixins.padding-left($value);
+	}
+	.padding-right-#{$name} {
+		@include mixins.padding-right($value);
+	}
+	.padding-top-#{$name} {
+		@include mixins.padding-top($value);
+	}
+	.padding-bottom-#{$name} {
+		@include mixins.padding-bottom($value);
+	}
+	.padding-x-#{$name} {
+		@include mixins.padding-x($value);
+	}
+	.padding-y-#{$name} {
+		@include mixins.padding-y($value);
+	}
+	.padding-#{$name} {
+		@include mixins.margin($value);
+	}
 }
