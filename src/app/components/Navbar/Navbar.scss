@@ -1,12 +1,4 @@
 @use "@styles/breakPoints/variables.scss" as breakpoints;
 #navbar {
-    height: 82px;
-}
-
-@media (max-width: breakpoints.$breakpoint-mobile) {
-    #navbar {
-        &__#navbar-links-desktop {
-            display: none;
-        }
-    }
+	height: 82px;
 }

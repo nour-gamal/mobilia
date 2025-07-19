@@ -1,0 +1,15 @@
+@mixin respond-up($breakpoint) {
+	@media (min-width: $breakpoint) {
+		@content;
+	}
+}
+@mixin respond-down($breakpoint) {
+	@media (max-width: $breakpoint) {
+		@content;
+	}
+}
+@mixin respond-between($breakpoint-min, $breakpoint-max) {
+	@media (min-width: $breakpoint-min) and (max-width: $breakpoint-max) {
+		@content;
+	}
+}

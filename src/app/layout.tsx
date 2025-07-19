@@ -4,29 +4,27 @@ import Navbar from "@components/Navbar/Navbar";
 import "./globals.scss";
 
 const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  display: "swap",
-})
+	subsets: ["latin"],
+	weight: ["400", "600", "700"],
+	display: "swap",
+});
 
 export const metadata: Metadata = {
-  title: "Mobilia",
-  description: "A web application for byuing and selling furniture",
+	title: "Mobilia",
+	description: "A web application for buying and selling furniture",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${inter.className}`}
-      >
-        <Navbar />
-        {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={`${inter.className}`}>
+				<Navbar />
+				{children}
+			</body>
+		</html>
+	);
 }

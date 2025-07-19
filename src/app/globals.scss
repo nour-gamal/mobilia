@@ -3,10 +3,10 @@
 @use "@styles/headings/headings.scss" as headings;
 @use "@styles/spacing/spacing.scss" as spacing;
 
-
 // Importing components styles
 @use "@components/Navbar/Navbar.scss";
-
+@use "@components/button/Button.scss";
+@use "@components/ImageHeader/ImageHeader.scss";
 
 //Importing Tailwind CSS
 @import "tailwindcss";

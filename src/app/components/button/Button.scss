@@ -1,0 +1,24 @@
+@use "@styles/colors/variables.scss" as colors;
+@use "@styles/typography/variables.scss" as typography;
+
+.button {
+	&__primary {
+		border: 1px solid colors.$dark_brown;
+		color: colors.$dark_brown;
+		background: colors.$neautral_100;
+		font-weight: bold;
+	}
+	&-size__large {
+		height: 40px;
+		min-width: 220px;
+		padding: 0 15px;
+		box-sizing: border-box;
+		font-weight: 600;
+		font-size: typography.$font_display_2;
+		line-height: typography.$line-height_display_2;
+	}
+	&-size__float {
+		height: 40px;
+		width: 100%;
+	}
+}
