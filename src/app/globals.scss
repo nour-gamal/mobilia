@@ -1,4 +1,5 @@
 @use "@styles/colors/variables.scss" as colors;
+@use "@styles/colors/colors.scss" as colorsStyles;
 @use "@styles/typography/typography.scss" as typography;
 @use "@styles/headings/headings.scss" as headings;
 @use "@styles/spacing/spacing.scss" as spacing;
@@ -7,6 +8,7 @@
 @use "@components/Navbar/Navbar.scss";
 @use "@components/button/Button.scss";
 @use "@components/ImageHeader/ImageHeader.scss";
+@use "@components/itemCard/ItemCard.scss";
 
 //Importing Tailwind CSS
 @import "tailwindcss";

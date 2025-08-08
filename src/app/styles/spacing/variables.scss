@@ -6,12 +6,24 @@ $spacing-md: $spacing-unit * 3; // 24px
 $spacing-lg: $spacing-unit * 4; // 32px
 $spacing-xl: $spacing-unit * 6; // 48px
 $spacing-xxl: $spacing-unit * 8; // 64px
+$spacing-xxxl: $spacing-unit * 10; // 80px
+$spacing-4xl: $spacing-unit * 12; // 96px
+$spacing-5xl: $spacing-unit * 14; // 112px
+$spacing-6xl: $spacing-unit * 16; // 128px
+$spacing-7xl: $spacing-unit * 18; // 144px
+$spacing-8xl: $spacing-unit * 20; // 160px
 
 $spacing-values: (
-  xs: $spacing-xs,
-  sm: $spacing-sm,
-  md: $spacing-md,
-  lg: $spacing-lg,
-  xl: $spacing-xl,
-  xxl: $spacing-xxl
+	xs: $spacing-xs,
+	sm: $spacing-sm,
+	md: $spacing-md,
+	lg: $spacing-lg,
+	xl: $spacing-xl,
+	xxl: $spacing-xxl,
+	xxxl: $spacing-xxxl,
+	4xl: $spacing-4xl,
+	5xl: $spacing-5xl,
+	6xl: $spacing-6xl,
+	7xl: $spacing-7xl,
+	8xl: $spacing-8xl,
 );

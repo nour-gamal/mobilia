@@ -1,8 +1,18 @@
 import type { NextConfig } from "next";
 import path from "path";
 
-const nextConfig: NextConfig = {
-	// Add your config options here
+const nextConfig = {
+	images: {
+		domains: ["localhost"], // ← add 'localhost'
+		remotePatterns: [
+			{
+				protocol: "http",
+				hostname: "localhost",
+				port: "3001",
+				pathname: "/uploads/**",
+			},
+		],
+	},
 };
 
 export default nextConfig;

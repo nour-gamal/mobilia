@@ -1,0 +1,10 @@
+@use "@styles/colors/variables" as variables;
+@each $name, $value in variables.$colors {
+	.text-#{$name} {
+		color: $value;
+	}
+
+	.bg-#{$name} {
+		background-color: $value;
+	}
+}
